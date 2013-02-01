@@ -15,7 +15,7 @@ Download [the latest .jar][dl] or depend via Maven:
 ```xml
 <dependency>
   <groupId>com.squareup</groupId>
-  <artifactId>proto-schema-parser</artifactId>
+  <artifactId>protoparser</artifactId>
   <version>(insert latest version)</version>
 </dependency>
 ```
@@ -41,4 +41,4 @@ License
 
 
 
- [dl]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.squareup&a=proto-schema-parser&v=LATEST
+ [dl]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.squareup&a=protoparser&v=LATEST
