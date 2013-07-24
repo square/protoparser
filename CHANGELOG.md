@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 2.1.1 *(2013-07-23)*
+----------------------------
+
+ * Fix: Properly parse escapes in quoted strings.
+
+
 Version 2.1.0 *(2013-07-15)*
 ----------------------------
 
