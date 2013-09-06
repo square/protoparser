@@ -1,6 +1,13 @@
 Change Log
 ==========
 
+Version 2.3.0 *(2013-09-06)*
+----------------------------
+
+ * New: Support for values as lists.
+ * New: Convenience methods for parsing from a `Reader` or `InputStream`.
+
+
 Version 2.2.0 *(2013-09-03)*
 ----------------------------
 
