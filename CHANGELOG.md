@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 2.3.1 *(2013-09-10)*
+----------------------------
+
+ * Fix: Preserve square brackets in option names which denote extensions.
+
+
 Version 2.3.0 *(2013-09-06)*
 ----------------------------
 
