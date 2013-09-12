@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 2.3.2 *(2013-09-12)*
+----------------------------
+
+ * Fix: Properly aggregate repeated option values.
+
+
 Version 2.3.1 *(2013-09-10)*
 ----------------------------
 
