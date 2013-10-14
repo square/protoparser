@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 2.3.3 *(2013-10-14)*
+----------------------------
+
+ * Fix: Disallow tag values less than or equal to zero.
+
+
 Version 2.3.2 *(2013-09-12)*
 ----------------------------
 
