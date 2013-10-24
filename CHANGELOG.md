@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 2.3.4 *(2013-10-23)*
+----------------------------
+
+ * Fix: Preserve leading whitespace on comments.
+
+
 Version 2.3.3 *(2013-10-14)*
 ----------------------------
 
