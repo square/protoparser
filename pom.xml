@@ -60,6 +60,7 @@
       <groupId>org.easytesting</groupId>
       <artifactId>fest-assert-core</artifactId>
       <version>${fest.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
