@@ -7,11 +7,11 @@ Version 3.0.0 *(2013-12-30)*
  * New: Support for public imports.
  * New: `toString` emits valid proto syntax.
  * New: Services and enums now support type-level options.
- * New: Tag values are now checked to be valid values.
+ * New: Tag values are now checked to be valid.
  * New: All models now have public constructors.
  * New: `Type` now includes options list and documentation.
- * Options are now always supplied as a list. Use `Option.optionToMap` convenience method to convert
-   them into a tree structure.
+ * Options are now always presented as a list. Use `Option.optionsToMap` convenience method to
+   convert them into a tree structure.
  * Fix: `equals` and `hashCode` for all models now properly checks all values.
 
 
