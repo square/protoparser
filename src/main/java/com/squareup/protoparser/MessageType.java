@@ -28,6 +28,8 @@ public final class MessageType implements Type {
     if (nestedTypes == null) throw new NullPointerException("nestedTypes");
     if (extensions == null) throw new NullPointerException("extensions");
     if (options == null) throw new NullPointerException("options");
+    EnumType.validateValueTagsAreUnique(nestedTypes);
+
     this.name = name;
     this.fqname = fqname;
     this.documentation = documentation;

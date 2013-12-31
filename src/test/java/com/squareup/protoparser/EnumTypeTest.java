@@ -7,8 +7,21 @@ import static com.squareup.protoparser.TestUtils.NO_OPTIONS;
 import static com.squareup.protoparser.TestUtils.NO_VALUES;
 import static com.squareup.protoparser.TestUtils.list;
 import static org.fest.assertions.api.Assertions.assertThat;
+import static org.fest.assertions.api.Assertions.fail;
 
 public class EnumTypeTest {
+  @Test public void duplicateTagValuesError() {
+    Value value = new Value("Value", 1, "", NO_OPTIONS);
+    Type type1 = new EnumType("Enum1", "", "", NO_OPTIONS, list(value));
+    Type type2 = new EnumType("Enum2", "", "", NO_OPTIONS, list(value));
+    try {
+      EnumType.validateValueTagsAreUnique(list(type1, type2));
+      fail("Duplicate tag values not allowed.");
+    } catch (IllegalStateException e) {
+      assertThat(e).hasMessage("Duplicate enum value tag: 1");
+    }
+  }
+
   @Test public void emptyToString() {
     EnumType type = new EnumType("Enum", "", "", NO_OPTIONS, NO_VALUES);
     String expected = "enum Enum {}\n";

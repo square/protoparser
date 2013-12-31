@@ -38,6 +38,7 @@ public final class ProtoFile {
     if (services == null) throw new NullPointerException("services");
     if (options == null) throw new NullPointerException("options");
     if (extendDeclarations == null) throw new NullPointerException("extendDeclarations");
+    EnumType.validateValueTagsAreUnique(types);
 
     this.fileName = fileName;
     this.packageName = packageName;
