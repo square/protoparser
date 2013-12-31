@@ -1,7 +1,7 @@
 ProtoParser
 ===========
 
-Basic parser for `.proto` schema declarations.
+Java parser for `.proto` schema declarations.
 
 `ProtoSchemaParser` will parse a standalone `File` or schema data directly and return an object
 representation as a `ProtoFile` instance.
