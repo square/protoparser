@@ -1,6 +1,16 @@
 Change Log
 ==========
 
+Version 3.1.0 *(2014-01-02)*
+----------------------------
+
+ * New: `ScalarTypes` class with constants for each scalar type and `isScalarType` method.
+ * New: Field values are now validated to be unique in their message.
+ * New: Enum values are now validated to be unique in their parent scope.
+ * New: `Option.findByName` convenience method for pulling options out of a list.
+ * Fix: Correct parsing problem where the character immediately after a `;` was ignored.
+
+
 Version 3.0.0 *(2013-12-30)*
 ----------------------------
 
