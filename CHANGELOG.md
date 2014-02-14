@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 3.1.1 *(2014-02-13)*
+----------------------------
+
+ * Fix: Special-case Google's protobuf descriptors from the enum value constraint.
+
+
 Version 3.1.0 *(2014-01-02)*
 ----------------------------
 
