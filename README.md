@@ -15,12 +15,12 @@ Download [the latest .jar][dl] or depend via Maven:
 <dependency>
   <groupId>com.squareup</groupId>
   <artifactId>protoparser</artifactId>
-  <version>3.1.2</version>
+  <version>3.1.3</version>
 </dependency>
 ```
 or via Gradle:
 ```groovy
-compile 'com.squareup:protoparser:3.1.2'
+compile 'com.squareup:protoparser:3.1.3'
 ```
 
 

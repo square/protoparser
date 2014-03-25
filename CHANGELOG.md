@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 3.1.3 *(2014-03-25)*
+----------------------------
+
+ * Fix: Avoid NPE on deprecated, packed, and default field methods.
+
+
 Version 3.1.2 *(2014-03-24)*
 ----------------------------
 
