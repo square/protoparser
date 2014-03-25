@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 3.1.2 *(2014-03-24)*
+----------------------------
+
+ * Fix: Extend declarations that are nested in other types are now properly supported.
+
+
 Version 3.1.1 *(2014-02-13)*
 ----------------------------
 

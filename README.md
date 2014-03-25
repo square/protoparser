@@ -11,13 +11,16 @@ Download
 --------
 
 Download [the latest .jar][dl] or depend via Maven:
-
 ```xml
 <dependency>
   <groupId>com.squareup</groupId>
   <artifactId>protoparser</artifactId>
-  <version>(insert latest version)</version>
+  <version>3.1.2</version>
 </dependency>
+```
+or via Gradle:
+```groovy
+compile 'com.squareup:protoparser:3.1.2'
 ```
 
 
