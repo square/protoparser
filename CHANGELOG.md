@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 3.1.4 *(2014-03-26)*
+----------------------------
+
+ * Fix: Enum duplicate scope check now correctly checks name instead of tag value.
+
+
 Version 3.1.3 *(2014-03-25)*
 ----------------------------
 
