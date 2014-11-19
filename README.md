@@ -44,4 +44,4 @@ License
 
 
 
- [dl]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.squareup&a=protoparser&v=LATEST
+ [dl]: https://search.maven.org/remote_content?g=com.squareup&a=protoparser&v=LATEST
