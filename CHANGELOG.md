@@ -1,6 +1,15 @@
 Change Log
 ==========
 
+Version 3.1.5 *(2014-11-27)*
+----------------------------
+
+ * Fix: Honor the 'allow_alias' option when validating value tag uniqueness in enums.
+ * Fix: Format multiple options on an enum value correctly in `toString()` output.
+ * Fix: Add support for int, enum, and boolean option value types.
+ * Fix: Preserve parenthesis specified around option names.
+
+
 Version 3.1.4 *(2014-03-26)*
 ----------------------------
 
