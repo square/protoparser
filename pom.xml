@@ -21,6 +21,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <java.version>1.6</java.version>
+    <auto.value.version>1.0-rc2</auto.value.version>
+    <jsr305.version>3.0.0</jsr305.version>
     <junit.version>4.10</junit.version>
     <fest.version>2.0M10</fest.version>
   </properties>
@@ -50,6 +52,18 @@
   </organization>
 
   <dependencies>
+    <dependency>
+      <groupId>com.google.auto.value</groupId>
+      <artifactId>auto-value</artifactId>
+      <version>${auto.value.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>${jsr305.version}</version>
+      <scope>provided</scope>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
