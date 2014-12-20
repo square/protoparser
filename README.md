@@ -23,6 +23,8 @@ or via Gradle:
 compile 'com.squareup:protoparser:3.1.5'
 ```
 
+Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
+
 
 
 License
@@ -45,3 +47,4 @@ License
 
 
  [dl]: https://search.maven.org/remote_content?g=com.squareup&a=protoparser&v=LATEST
+ [snap]: https://oss.sonatype.org/content/repositories/snapshots/
