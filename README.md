@@ -3,7 +3,7 @@ ProtoParser
 
 Java parser for `.proto` schema declarations.
 
-`ProtoSchemaParser` will parse a standalone `File` or schema data directly and return an object
+`ProtoParser` will parse a standalone `File` or schema data directly and return an object
 representation as a `ProtoFile` instance.
 
 
