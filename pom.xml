@@ -22,7 +22,6 @@
 
     <java.version>1.7</java.version>
     <auto.value.version>1.0-rc2</auto.value.version>
-    <jsr305.version>3.0.0</jsr305.version>
     <junit.version>4.11</junit.version>
     <assertj.version>1.7.0</assertj.version>
   </properties>
@@ -56,12 +55,6 @@
       <groupId>com.google.auto.value</groupId>
       <artifactId>auto-value</artifactId>
       <version>${auto.value.version}</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.code.findbugs</groupId>
-      <artifactId>jsr305</artifactId>
-      <version>${jsr305.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
