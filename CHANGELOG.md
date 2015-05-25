@@ -1,6 +1,20 @@
 Change Log
 ==========
 
+Version 4.0.0 *(2015-05-25)*
+----------------------------
+
+ * New: Rewritten model to more accurately reflect the proto schema.
+ * New: `DataType` interface and classes for representing type declarations.
+ * New: Model classes all have a builder for creating instances.
+ * New: `toSchema()` method renders model objects as proto schema.
+ * New: Support for `oneof`, `map`, and `any` types.
+ * New: Support for `syntax` declarations.
+ * New: Option values are now always represented as a string, list, or map. The `kind()` of an
+   option instance reflects the inferred type. This allows for correct representation of unsigned
+   numbers and unknown enum values without special handling.
+
+
 Version 3.1.5 *(2014-11-27)*
 ----------------------------
 
