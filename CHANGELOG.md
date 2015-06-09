@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 4.0.1 *(2015-06-09)*
+----------------------------
+
+ * Fix: Correctly handle equals sign between the 'syntax' keyword and its value.
+
+
 Version 4.0.0 *(2015-05-25)*
 ----------------------------
 
