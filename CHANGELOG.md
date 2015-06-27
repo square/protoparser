@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 4.0.2 *(2015-06-27)*
+----------------------------
+
+ * Fix: Support uppercase "X" for hexademical notation prefix (e.g., "0XDEADBEEF").
+
+
 Version 4.0.1 *(2015-06-09)*
 ----------------------------
 
