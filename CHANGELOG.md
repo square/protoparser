@@ -95,7 +95,7 @@ Version 2.3.5 *(2013-11-04)*
 
  * New: Field options are available directly as a list.
  * New: Parse options defined on enum values.
- * Fix: Correctly parse option maps the lack commas.
+ * Fix: Correctly parse option maps that lack commas.
 
 
 Version 2.3.4 *(2013-10-23)*
