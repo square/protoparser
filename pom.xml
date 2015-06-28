@@ -11,7 +11,7 @@
 
   <groupId>com.squareup</groupId>
   <artifactId>protoparser</artifactId>
-  <version>4.0.3-SNAPSHOT</version>
+  <version>4.0.3</version>
 
   <name>ProtoParser</name>
   <description>Basic parser for protocol buffer schema declarations.</description>
