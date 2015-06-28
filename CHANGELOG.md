@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 4.0.3 *(2015-06-27)*
+----------------------------
+
+ * Fix: Support trailing star-style comments (`/* hi */`) on enum values and fields.
+
+
 Version 4.0.2 *(2015-06-27)*
 ----------------------------
 

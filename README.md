@@ -15,12 +15,12 @@ Download [the latest .jar][dl] or depend via Maven:
 <dependency>
   <groupId>com.squareup</groupId>
   <artifactId>protoparser</artifactId>
-  <version>4.0.2</version>
+  <version>4.0.3</version>
 </dependency>
 ```
 or via Gradle:
 ```groovy
-compile 'com.squareup:protoparser:4.0.2'
+compile 'com.squareup:protoparser:4.0.3'
 ```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
