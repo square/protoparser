@@ -6,6 +6,10 @@ Java parser for `.proto` schema declarations.
 `ProtoParser` will parse a standalone `File` or schema data directly and return an object
 representation as a `ProtoFile` instance.
 
+Deprecated!
+-----------
+
+This project is now deprecated. Its replacement is `wire-schema`, within the [Wire Protocol Buffers](https://github.com/square/wire/) project.
 
 Download
 --------
